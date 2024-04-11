@@ -1,5 +1,6 @@
 @import "../../../mixins.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700');
 .heroBanner {
     width: 100%;
     height: 450px;
@@ -51,17 +52,23 @@
         max-width: 800px;
         margin: 0 auto;
         .title {
+            font-family: "Dancing Script", cursive;
             font-size: 50px;
             font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 3px 1px 5px rgba(22, 0, 0, 1);
             @include md {
                 margin-bottom: 2rem;
-                font-size: 90px;
+                font-size: 150px;
+                font-weight: 700;
+
             }
         }
         .subTitle {
+            font-family: "Merriweather", serif;
+  font-weight: 700;
             font-size: 18px;
-            font-weight: 500;
+            
             margin-bottom: 40px;
             @include md {
                 font-size: 24px;
