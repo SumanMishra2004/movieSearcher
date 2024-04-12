@@ -16,7 +16,9 @@ const Footer = () => {
       <ContentWrapper>
         <div className="socialIcons">
           <span className="icon">
-            <FaFacebookF />
+            <a href="https://www.facebook.com/profile.php?id=100032017381719">
+              <FaFacebookF />
+            </a>
           </span>
           <span className="icon">
             <FaInstagram />

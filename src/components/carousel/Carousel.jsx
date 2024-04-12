@@ -72,7 +72,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                     navigate(`/${item.media_type || endpoint}/${item.id}`)
                   }
                 >
-                  <Tilt>
+                  <Tilt tiltMaxAngleX={40} tiltMaxAngleY={40} perspective={1000} scale={1.1} glareEnable={true}>
                     {" "}
                     <div className="posterBlock">
                       <Img src={posterUrl} />
